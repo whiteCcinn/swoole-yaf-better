@@ -125,7 +125,7 @@ cd project_root_path
 
 cd project_root_path/service
 
-`php run server.php`
+`php server.php`
 
 
 ----------
