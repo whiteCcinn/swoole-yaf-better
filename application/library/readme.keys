@@ -1,0 +1,4 @@
+Core = 核心类库目录
+helper_function.php = 公共帮助函数文件
+\Core\BaseCtl.php = 抽象控制器基类
+\Core\Ctl.php = 基本控制器

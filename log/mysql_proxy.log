@@ -1,0 +1,4 @@
+->[onStart] PHP=7.0.1 swoole=2.0.5 Master-Pid=5371 Manager-Pid=5372 time=2017-01-23 14:16:46
+->[onManagerStart] time=2017-01-23 14:16:46
+->[onWorkStart] worker_id = 0 time=2017-01-23 14:16:46
+->[onWorkStart] worker_id = 4 time=2017-01-23 14:16:46

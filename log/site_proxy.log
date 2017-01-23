@@ -1,0 +1,41 @@
+->[onStart] PHP=7.0.1 yaf=3.0.5-dev swoole=2.0.5 Master-Pid=4993 Manager-Pid=4994 time=2017-01-23 12:08:09
+->[onManagerStart] time=2017-01-23 12:08:10
+->[onWorkStart] worker_id = 2 time=2017-01-23 12:08:10
+->[onWorkStart] worker_id = 0 time=2017-01-23 12:08:10
+->[onWorkStart] worker_id = 6 time=2017-01-23 12:08:10
+->[onStart] PHP=7.0.1 yaf=3.0.5-dev swoole=2.0.5 Master-Pid=5017 Manager-Pid=5018 time=2017-01-23 12:12:25
+->[onManagerStart] time=2017-01-23 12:12:25
+->[onWorkStart] worker_id = 0 time=2017-01-23 12:12:25
+->[onWorkStart] worker_id = 1 time=2017-01-23 12:12:25
+->[onWorkStart] worker_id = 6 time=2017-01-23 12:12:25
+->[onWorkStart] worker_id = 7 time=2017-01-23 12:12:25
+->[onWorkStart] worker_id = 4 time=2017-01-23 12:12:25
+->[onStart] PHP=7.0.1 yaf=3.0.5-dev swoole=2.0.5 Master-Pid=5256 Manager-Pid=5257 time=2017-01-23 14:01:06
+->[onManagerStart] time=2017-01-23 14:01:06
+->[onWorkStart] worker_id = 1 time=2017-01-23 14:01:06
+->[onWorkStart] worker_id = 2 time=2017-01-23 14:01:06
+->[onWorkStart] worker_id = 0 time=2017-01-23 14:01:06
+->[onWorkStart] worker_id = 3 time=2017-01-23 14:01:06
+->[onWorkStart] worker_id = 6 time=2017-01-23 14:01:06
+->[onWorkStart] worker_id = 8 time=2017-01-23 14:01:06
+->[onWorkStart] worker_id = 9 time=2017-01-23 14:01:06
+->[onStart] PHP=7.0.1 yaf=3.0.5-dev swoole=2.0.5 Master-Pid=5301 Manager-Pid=5302 time=2017-01-23 14:12:34
+->[onManagerStart] time=2017-01-23 14:12:34
+->[onWorkStart] worker_id = 1 time=2017-01-23 14:12:34
+->[onWorkStart] worker_id = 3 time=2017-01-23 14:12:34
+->[onWorkStart] worker_id = 6 time=2017-01-23 14:12:34
+->[onWorkStart] worker_id = 7 time=2017-01-23 14:12:34
+->[onStart] PHP=7.0.1 yaf=3.0.5-dev swoole=2.0.5 Master-Pid=5324 Manager-Pid=5325 time=2017-01-23 14:14:14
+->[onManagerStart] time=2017-01-23 14:14:15
+->[onWorkStart] worker_id = 0 time=2017-01-23 14:14:15
+->[onWorkStart] worker_id = 1 time=2017-01-23 14:14:15
+->[onWorkStart] worker_id = 2 time=2017-01-23 14:14:15
+->[onWorkStart] worker_id = 9 time=2017-01-23 14:14:15
+->[onWorkStart] worker_id = 7 time=2017-01-23 14:14:15
+->[onStart] PHP=7.0.1 yaf=3.0.5-dev swoole=2.0.5 Master-Pid=5349 Manager-Pid=5350 time=2017-01-23 14:15:37
+->[onManagerStart] time=2017-01-23 14:15:37
+->[onWorkStart] worker_id = 1 time=2017-01-23 14:15:38
+->[onWorkStart] worker_id = 3 time=2017-01-23 14:15:38
+->[onWorkStart] worker_id = 4 time=2017-01-23 14:15:38
+->[onWorkStart] worker_id = 6 time=2017-01-23 14:15:38
+->[onWorkStart] worker_id = 9 time=2017-01-23 14:15:38
