@@ -17,6 +17,7 @@ PHP7.0.x+Swoole2.0.5+yaf3.0.5-dev+协程Mysql+协程Redis+inotify实时监控日
  - 日志系统基于 `AMQP协议` 进行异步队列记录日志 (待完善)
  - 实现了基于 `yaf` 框架的基本封装，让控制器能更加灵活的控制入口
  - Mysql客户端和Mysql服务器端的协程服务采用自定义网络传输协议，让数据传输更加可靠
+ - 采用shell脚本一键启动所有Server（目前暂未实现shell的编写，暂时采用分步启动）
  
 ----------
 
@@ -114,6 +115,17 @@ server {
 `http://www.yourprojectname.com/test/index/index`
 
 注意：这里yaf采用的分模块设置，目前第一阶段只在test模块下测试
+
+
+##Usage
+
+cd project_root_path
+
+`php run_server.php`
+
+cd project_root_path/service
+
+`php run server.php`
 
 
 ----------
