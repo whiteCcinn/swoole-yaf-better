@@ -133,63 +133,63 @@ cd project_root_path/service
 
 以下是我用Ab做的简单的压力测试数据
 
-[root@localhost yaf]# ab -c 200 -n 20000 -k http://www.host.com/test/index/index
-This is ApacheBench, Version 2.3 <$Revision: 1430300 $>
-Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
-Licensed to The Apache Software Foundation, http://www.apache.org/
+    [root@localhost yaf]# ab -c 200 -n 20000 -k http://www.host.com/test/index/index
+    This is ApacheBench, Version 2.3 <$Revision: 1430300 $>
+    Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+    Licensed to The Apache Software Foundation, http://www.apache.org/
 
-Benchmarking www.host.com (be patient)
-Completed 2000 requests
-Completed 4000 requests
-Completed 6000 requests
-Completed 8000 requests
-Completed 10000 requests
-Completed 12000 requests
-Completed 14000 requests
-Completed 16000 requests
-Completed 18000 requests
-Completed 20000 requests
-Finished 20000 requests
+    Benchmarking www.host.com (be patient)
+    Completed 2000 requests
+    Completed 4000 requests
+    Completed 6000 requests
+    Completed 8000 requests
+    Completed 10000 requests
+    Completed 12000 requests
+    Completed 14000 requests
+    Completed 16000 requests
+    Completed 18000 requests
+    Completed 20000 requests
+    Finished 20000 requests
 
 
-Server Software:        nginx/1.10.1
-Server Hostname:        www.host.com
-Server Port:            80
+    Server Software:        nginx/1.10.1
+    Server Hostname:        www.host.com
+    Server Port:            80
 
-Document Path:          /test/index/index
-Document Length:        173 bytes
+    Document Path:          /test/index/index
+    Document Length:        173 bytes
 
-Concurrency Level:      200
-Time taken for tests:   1.271 seconds
-Complete requests:      20000
-Failed requests:        0
-Write errors:           0
-Non-2xx responses:      20000
-Keep-Alive requests:    19869
-Total transferred:      6599345 bytes
-HTML transferred:       3460000 bytes
-Requests per second:    15740.82 [#/sec] (mean)
-Time per request:       12.706 [ms] (mean)
-Time per request:       0.064 [ms] (mean, across all concurrent requests)
-Transfer rate:          5072.22 [Kbytes/sec] received
+    Concurrency Level:      200
+    Time taken for tests:   1.271 seconds
+    Complete requests:      20000
+    Failed requests:        0
+    Write errors:           0
+    Non-2xx responses:      20000
+    Keep-Alive requests:    19869
+    Total transferred:      6599345 bytes
+    HTML transferred:       3460000 bytes
+    Requests per second:    15740.82 [#/sec] (mean)
+    Time per request:       12.706 [ms] (mean)
+    Time per request:       0.064 [ms] (mean, across all concurrent requests)
+    Transfer rate:          5072.22 [Kbytes/sec] received
 
-Connection Times (ms)
-              min  mean[+/-sd] median   max
-Connect:        0    3  58.5      0    1005
-Processing:     3    9   8.1      8    1007
-Waiting:        3    9   8.1      8    1007
-Total:          3   13  59.1      8    1015
+    Connection Times (ms)
+                  min  mean[+/-sd] median   max
+    Connect:        0    3  58.5      0    1005
+    Processing:     3    9   8.1      8    1007
+    Waiting:        3    9   8.1      8    1007
+    Total:          3   13  59.1      8    1015
 
-Percentage of the requests served within a certain time (ms)
-  50%      8
-  66%      9
-  75%     11
-  80%     11
-  90%     14
-  95%     18
-  98%     21
-  99%     24
- 100%   1015 (longest request)
+    Percentage of the requests served within a certain time (ms)
+      50%      8
+      66%      9
+      75%     11
+      80%     11
+      90%     14
+      95%     18
+      98%     21
+      99%     24
+     100%   1015 (longest request)
  
 由此可见，swoole的http_server加上yaf的C框架，一个单一的入口文件的压力测试，在0 faile connect下 qps达到了1.5万，实在是性能卓越。
 
