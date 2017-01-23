@@ -191,8 +191,7 @@ cd project_root_path/service
       99%     24
      100%   1015 (longest request)
  
-由此可见，swoole的http_server加上yaf的C框架，一个单一的入口文件的压力测试，在0 faile connect下 qps达到了1.5万，实在是性能卓越。
-
+由此可见，swoole的http_server加上yaf的C框架，一个单一的入口文件的压力测试，在0 faile connect下 qps达到了1.5万，实在是性能卓越。（本机是自用虚拟机，配置比较差，具体的qps需要各位在服务器上尝试了）
 ----------
 ## 感谢
 
